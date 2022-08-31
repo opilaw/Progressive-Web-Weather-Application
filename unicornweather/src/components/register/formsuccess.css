@@ -1,0 +1,21 @@
+.form-success {
+  align-items: center;
+}
+.uni2 {
+  height: 3rem;
+  width: 3rem;
+  position: fixed;
+}
+.form-sucess-message {
+  order: 1;
+  text-align: center;
+  font-family: 'Slackey', cursive;
+  width: 250px;
+  background: -webkit-linear-gradient(45deg, #ffffff, #ffccdc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(4px 3px #1f1042);
+}
