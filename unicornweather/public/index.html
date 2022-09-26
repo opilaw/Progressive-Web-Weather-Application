@@ -52,9 +52,9 @@
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker
-          .register('./serviceworker.js') //pointing to the file of service worker
-          .then((reg) => console.log('success!', reg.scope)) //promise. Reg.scope gonna show the service worker was installed
-          .catch((err) => console.log('failure: ', err))
+          .register('./serviceworker.js')
+          .then((reg) => console.log('Success: ', reg.scope))
+          .catch((err) => console.log('Failure: ', err))
       })
     }
   </script>
